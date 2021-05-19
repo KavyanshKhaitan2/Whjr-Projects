@@ -1,0 +1,12 @@
+body {
+  background-color: #333333;
+  color: #fff;
+}
+
+p, span {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
