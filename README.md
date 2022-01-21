@@ -3,13 +3,13 @@
 Go to https://kavyanshkhaitan2.github.io/Whjr-Projects/Project {Class No.}/  to view the project.
 
 # Projects:
-Project 60: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project 60/)
+Project 60: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2060/)
 
-Project 68: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project 68/)
+Project 68: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2068/)
 
-Project 77: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project 77/)
+Project 77: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2077/)
 
-Project 78: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project 78/)
+Project 78: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2078/)
 
 Project 79: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project 79/)
 
