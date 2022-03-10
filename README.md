@@ -2,7 +2,7 @@
 
 Go to https://kavyanshkhaitan2.github.io/Whjr-Projects/Project {Class No.}/  to view the project.
 
-# Projects:
+# Projects
 Project 60: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2060/)
 
 Project 68: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%2068/)
