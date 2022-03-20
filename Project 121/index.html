@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <title>Project 120: Google Lens v/s MobileNet case study</title>
+  <script src="config.js" defer></script>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+    <h1 class="header">Google Lens v/s MobileNet case study</h1>
+    <p id="info">This is an easy-to-customize case study card example prefilled with <b><u>Google Lens</u> v/s <u>MobileNet</u> case study</b></p>
+    <h4 class="header">Links</h4>
+    <a href="#customize">Customize this case study</a><br>
+    <a href="#conclusion">Conclusion</a><br>
+    <h4 class="header">Shortcuts</h4>
+    <ol id="shortcuts"></ol>
+  </center>
+
+  <template id="card-template">
+    <li class="card" id="card-{card-index}">
+      <center>
+        <h3 class="card-topic">{card-topic}</h3>
+        <img class="card-image" src="{card-image}" alt="{card-image-alt}">
+        <div class="card-details">
+          <span class="card-detail card-detail1">
+            <span class="h">{detail1 header}</span>
+            <span class="description"><br>{detail1 description}</span>
+          </span>
+          <span class="card-detail card-detail2">
+            <span class="h">{detail2 header}</span>
+            <span class="description"><br>{detail2 description}</span>
+          </span>
+        </div>
+
+        <div class="card-result">
+          <h2 class="card-result-header">Results
+            <hr>
+          </h2>
+          <span class="card-result-content">{card-result}</span>
+        </div>
+      </center>
+    </li>
+  </template>
+
+  <a href="#">
+    <button class="btn btn-dark" id="back-to-top">&UpArrow;</button>
+  </a>
+
+  <span id="cards"></span>
+
+  <div id="conclusion" class="btn btn-danger">
+    <center>
+      <h1 class="header">Conclusion</h1>
+      According to my case study, <b>Google Lens</b> was more accurate whereas <b>MobileNet</b> was acting dumb at times.<br>
+      <hr><hr>
+      The data is as follows:
+      <hr>
+      Topic: Media Keyboard K200 (Card 0):<br>
+      Google Lens scored 5 for 99% accuracy and MobileNet scored 2 for 35% accuracy
+      <hr>
+      Topic: Logitech Media Mouse (Card 1):<br>
+      Google Lens scored 5 for 105% accuracy and MobileNet scored 2 for 25% accuracy
+      <hr>
+      Topic: Water Bottle (Card 2):<br>
+      Google Lens scored 0 for 0% accuracy and MobileNet scored 5 for 100% accuracy
+      <hr>
+      Topic: Dell 19.5 inch LED Computer Monitor E2016HV (Card 3):<br>
+      Google Lens scored 5 for 95% accuracy and MobileNet scored 1 for 10% accuracy
+      <hr>
+      Topic: Wooden Door (Card 4):<br>
+      Google Lens scored 4 for 80% accuracy and MobileNet scored 2 for <b>dumb</b> accuracy
+      <hr>
+      Topic: 8GB Strontium USB Pendrive (Card 5):<br>
+      Google Lens scored 10 for a very <b>oversmart</b> 200% accuracy and MobileNet scored -1 for <b>very dumb</b> accuracy
+      <hr>
+      Topic: Apple as in a Fruit (Card 6):<br>
+      Google Lens scored 5 for 98% accuracy and MobileNet scored -1 for <b>very very dumb</b> 35% accuracy
+      <hr>
+      So, Google Lens scored a total of: <b>34</b><br>
+      and, MobileNet scored a total of: <b>10</b><br>
+      According to my case study, Google Lens are 240% more accurate
+    </center>
+  </div>
+  
+  <div class="btn btn-warning" id="customize">
+    <h1 class="header">Customize</h1>
+    <h2>Coming Soon</h2>
+    <h2>Till then, to customize email to <a href="mailto:kavyanshkhaitan11@gmail.com">kavyanshkhaitan11@gmail.com</a> or figure it out yourself in <code>config.js</code></h2>
+  </div>
+
+</body>
+</html>
