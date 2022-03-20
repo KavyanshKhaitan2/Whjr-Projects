@@ -1,0 +1,110 @@
+html {
+  --back-to-top-left-right-padding: 1.7vw;
+  --scrollbar-width: 5px;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.header {
+  text-decoration: underline;
+}
+
+#info {
+  width: 45ch;
+  min-height: var(--back-to-top-left-right-padding);
+}
+
+#back-to-top {
+  padding-left: var(--back-to-top-left-right-padding);
+  padding-right: var(--back-to-top-left-right-padding);
+  position: fixed;
+  font-size: xx-large;
+  border-radius: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  z-index: 99999999;
+}
+
+.card {
+  --card-height: calc(10vh + 250px);
+  border-radius: 10px;
+  background: rgb(0,9,255);
+  background: radial-gradient(circle, rgba(0,9,255,1) 0%, rgba(0,255,239,1) 100%);
+  height: var(--card-height);
+  width: calc(100vh - var(--scrollbar-width)*1px);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.card-topic {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 75%, rgb(119, 119, 119) 100%);
+  float: left;
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-details {
+  --gap: 15em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.card-detail {
+  --padding-left-right: 10px;
+  font-size: 1.5em;
+  color: white;
+  background-color: #2b8f65;
+  min-height: calc(10vh - 8px);
+  margin-top: 4px;
+  border-radius: 5px;
+  padding: 0px var(--padding-left-right);
+}
+
+.card-detail .h {
+  font-size: 1.2em;
+}
+
+.card-detail1 {
+  margin-right: calc(var(--gap) / 2);
+}
+
+.card-detail2 {
+  margin-left: calc(var(--gap) / 2);
+}
+
+.card-image {
+  position: absolute;
+  left: 0;
+  transform: translateY(25%);
+}
+
+.card-result {
+  width: 75%;
+  position: absolute;
+  text-align: center;
+  transform: translate(20%, 50%);
+}
