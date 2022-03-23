@@ -23,7 +23,7 @@ function start()
   speak()
   setTimeout(function() {
     recognition.start();
-  }, 1000);
+  }, 1500);
 } 
  
 recognition.onresult = function(event) {
