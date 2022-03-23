@@ -47,4 +47,4 @@ Project 120: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%201
 
 Project 121: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%20121/)
 
-Project 122: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%20121/)
+Project 122: [here](https://kavyanshkhaitan2.github.io/Whjr-Projects/Project%20122/)
