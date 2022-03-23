@@ -19,7 +19,7 @@ var recognition = new SpeechRecognition();
 function start() {
   speak_data = "How many apples do you want to draw?"
   document.getElementById("status").innerHTML = speak_data;
-  speak()
+  //speak()
   setTimeout(function() {
     print("recognision started now")
     recognition.start();
