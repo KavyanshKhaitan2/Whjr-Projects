@@ -21,7 +21,9 @@ function start()
   speak_data = "How many apples do you want to draw?"
   document.getElementById("status").innerHTML = speak_data;
   speak()
-  recognition.start();
+  setTimeout(function() {
+    recognition.start();
+  }, 1000);
 } 
  
 recognition.onresult = function(event) {
