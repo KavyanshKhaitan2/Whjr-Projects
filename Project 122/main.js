@@ -22,6 +22,7 @@ function start()
   document.getElementById("status").innerHTML = speak_data;
   speak()
   setTimeout(function() {
+    print("recognision started now")
     recognition.start();
   }, 1500);
 } 
