@@ -8,7 +8,7 @@ y = 0;
 draw = "";
 apple_image = ""
 speak_data = ""
-to_number = ""
+to_number = 0
 
 screen_width = window.innerWidth
 
@@ -16,16 +16,15 @@ var SpeechRecognition = window.webkitSpeechRecognition;
   
 var recognition = new SpeechRecognition();
 
-function start()
-{
+function start() {
   speak_data = "How many apples do you want to draw?"
   document.getElementById("status").innerHTML = speak_data;
   speak()
   setTimeout(function() {
     print("recognision started now")
     recognition.start();
-  }, 1500);
-} 
+  }, 1000);
+}
  
 recognition.onresult = function(event) {
 
@@ -54,7 +53,7 @@ function preload() {
 }
 
 function setup() {
- createCanvas(screen_width, window.innerHeight - 150)
+  createCanvas(screen_width, window.innerHeight - 150)
 }
 
 function draw() {
