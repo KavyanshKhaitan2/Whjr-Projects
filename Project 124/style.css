@@ -1,0 +1,24 @@
+canvas, video {
+  animation-duration: 2s;
+  animation-name: canvas;
+  animation-iteration-count: infinite;
+}
+
+@keyframes canvas {
+  0% {
+    box-shadow: 39px 47px 209px 77px rgba(0, 38, 255, 0.5);
+  }
+  33% {
+    box-shadow: 39px 47px 209px 77px rgba(255,181,0,0.5);
+  }
+  66% {
+    box-shadow: 39px 47px 209px 77px rgba(255,181,0,1);
+  }
+  100% {
+    box-shadow: 39px 47px 209px 77px rgba(0, 38, 255, 0.5);
+  }
+}
+
+.header {
+  width: 100%;
+}
